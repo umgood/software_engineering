@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS `user`(
+   `userid` INT UNSIGNED AUTO_INCREMENT,
+   `username` VARCHAR(100) NOT NULL,
+   `nickname` VARCHAR(40) NOT NULL,
+   `power` VARCHAR(40) NOT NULL,
+   `state` VARCHAR(40) NOT NULL,
+   PRIMARY KEY ( `userid_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+alter table tmp_tb_user add Userid int
